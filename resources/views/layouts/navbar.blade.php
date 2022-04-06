@@ -49,7 +49,8 @@
                     </ul>
 
                     <div class="nav-right">
-                        <a href="#" class="nav-btn">Order
+                        <a href="#" class="nav-btn" data-toggle="modal" data-target="#ContactDemo">
+                            Order
                             Demo</a>
                     </div>
                 </div>

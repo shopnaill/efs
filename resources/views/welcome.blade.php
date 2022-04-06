@@ -4,6 +4,6 @@
     @include('demo.section')
     @include('client.section')
     @include('service.section')
-    @include('team.section')
-    @include('about.section')
+     @include('about.section')
+    @include('contact.modal')
 @endsection

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+require_once 'admin.php';
 /*
 |--------------------------------------------------------------------------
 | Web Routes

@@ -104,6 +104,9 @@
     <!-- Site Scripts -->
     <script src="{{ asset('js/header.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+    @yield('scripts')
+    
 </body>
 
 </html>
