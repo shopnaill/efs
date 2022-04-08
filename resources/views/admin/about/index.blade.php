@@ -15,7 +15,7 @@
                         </div>
                         <div class="form-group">
                             <label for="description">Description</label>
-                            <textarea class="form-control" name="description" id="description" rows="3">{{ $about->description }}</textarea>
+                            <textarea class="form-control" name="description" id="description" rows="6">{{ $about->description }}</textarea>
                         </div>
                         <div class="form-group">
                             <label for="photo">Photo</label>
