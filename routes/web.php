@@ -18,3 +18,14 @@ require_once 'admin.php';
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+// storage routes
+Route::get('/storage/{path}', function ($path) {
+    return Storage::disk('public')->get($path);
+})->where('path', '.*');
+
+// storage routes with subfolder
+Route::get('/storage/{folder}/{path}', function ($folder, $path) {
+    return Storage::disk('public')->get($folder.'/'.$path);
+})->where('path', '.*');
