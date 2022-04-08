@@ -19,7 +19,7 @@
               <div class="traking--images">
                   @foreach ($works as $key => $work)
                     
-                          <div class="traking__item traking__item--width-two mt-20">
+                          <div class="traking__item traking__item--width-one mt-20">
                               <img src="{{ asset('storage/' . $work->photo) }}" alt="{{ $work->name }}"
                                   class="wow fadeInUp" data-wow-delay="0.5s" alt="sasspik traking"
                                   style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
