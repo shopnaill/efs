@@ -11,8 +11,7 @@
 
                         <ul class="footer-menu">
                             <li><a href="#">Features</a></li>
-                            <li><a href="#">Dashboard &amp;
-                                    Tool</a></li>
+
                             <li><a href="#">Our Portfolio</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Get In Touch</a></li>
@@ -49,8 +48,7 @@
                             </li>
                             <li><a href="#">UX / UI design</a>
                             </li>
-                            <li><a href="#">Dashboard &amp;
-                                    Tool</a></li>
+
                             <li><a href="#">Logo &amp;
                                     Identity</a></li>
                         </ul>
@@ -64,18 +62,14 @@
                         <h3 class="widget-title">Our Address</h3>
 
                         <p>
-                            Lavaca Street, Suite 24, Road Apt New York, USA
+                            6 Octobre, Giza, Egypt
                         </p>
 
                         <ul class="footer-social-link">
-                            <li><a href="#"><i
-                                        class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i
-                                        class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i
-                                        class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i
-                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                     <!-- /.widget footer-widget -->
@@ -88,7 +82,7 @@
 
         <div class="site-info">
             <div class="copyright">
-                <p>© 2022 All Rights Reserved by <a href="https://www.eaglefits.net/"
+                <p>© 2022 All Rights Reserved by <a class="text-white" href="https://www.eaglefits.net/"
                         target="_blank">EFS</a></p>
             </div>
 

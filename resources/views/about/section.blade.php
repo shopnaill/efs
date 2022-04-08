@@ -11,10 +11,11 @@
 								</p>
 							</div>
 							<a href="#" class="app-btn-two app-travel wow flipInX" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: flipInX;">
-								<i class="fi flaticon-google-play"></i>
+								<i class="fa fa-phone"></i>
 								<span class="btn-text">
-									<span class="text-top">Get on the</span>
-									<span>Google play</span>
+ 									<span>
+                                         {{__('Contact Us')}}
+                                     </span>
 								</span>
 							</a>
 						</div>
