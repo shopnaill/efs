@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Services Table</h4>
-                    <a href="{{route('service.create')}}" class="btn btn-primary btn-sm">Add New</a>
+                    <a href="{{route('admin.service.create')}}" class="btn btn-primary btn-sm">Add New</a>
 
                     <div class="table-responsive">
                         <table class="table table-striped">
@@ -33,7 +33,7 @@
                                         {{ $service->name }}
                                     </td>
                                     <td>
-                                        <a  href="{{ route('client.edit', $service->id) }}" class="btn btn-secondary btn-sm">Edit</a>
+                                        <a  href="{{ route('admin.service.edit', $service->id) }}" class="btn btn-secondary btn-sm">Edit</a>
                                         <a class="btn btn-sm btn-primary delete-btn" data-id="{{$service->id}}" data-toggle="modal" data-target="#deleteModal">Delete</a>
                                     </td>
                                 </tr>
@@ -56,7 +56,7 @@
         $(document).ready(function(){
             $(document).on('click', '.delete-btn', function(){
                 var id = $(this).attr('data-id');
-                var url = "{{ route('service.delete', ':id') }}";
+                var url = "{{ route('admin.service.delete', ':id') }}";
                 url = url.replace(':id', id);
                 $('#delete-form').attr('action', url);
 

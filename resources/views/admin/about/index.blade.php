@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">About</h4>
-                     <form action="{{ route('about.update', $about->id) }}" method="POST" enctype="multipart/form-data">
+                     <form action="{{ route('admin.about.update', $about->id) }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         @method('PUT')
                         <div class="form-group">

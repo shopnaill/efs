@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Team Form</h4>
 
-                    <form class="forms-sample" action="{{ route('team.update_create') }}" method="POST"
+                    <form class="forms-sample" action="{{ route('admin.team.update_create') }}" method="POST"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">

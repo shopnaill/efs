@@ -22,8 +22,8 @@ return new class extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
-            $table->unsignedBigInteger('role_id')->nullable();
-            $table->foreign('role_id')->references('id')->on('user_roles')->onDelete('set null');
+            $table->unsignedBigInteger('role')->nullable();
+            $table->foreign('role')->references('id')->on('user_roles')->onDelete('set null');
         });
     }
 

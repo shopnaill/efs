@@ -41,4 +41,58 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function user_role()
+    {
+        return $this->belongsTo('App\Models\UserRole', 'role');
+    }
+
+    public function user_permission()
+    {
+        $permission = $this->user_role->permission;
+        $user_permissions = explode(',', $permission);
+
+        $permissions = [];
+
+        foreach ($user_permissions as $user_permission) {
+            if ($user_permission == '1') {
+                $permissions['1'] = __('Home');
+            }
+            if ($user_permission == '2') {
+                $permissions['2'] = __('Contact Requests');
+            }
+            if ($user_permission == '3') {
+                $permissions['3'] = __('Reservation Requests');
+            }
+            if ($user_permission == '4') {
+                $permissions['4'] = __('Website Pages');
+            }
+            if ($user_permission == '5') {
+                $permissions['5'] = __('Teamworks');
+            }
+            if ($user_permission == '6') {
+                $permissions['6'] = __('Projects');
+            }
+            if ($user_permission == '7') {
+                $permissions['7'] = __('Contact');
+            }
+            if ($user_permission == '8') {
+                $permissions['8'] = __('Success Partners');
+            }
+            if ($user_permission == '9') {
+                $permissions['9'] = __('System Users');
+            }
+            if ($user_permission == '10') {
+                $permissions['10'] = __('Blog');
+            }
+            if ($user_permission == '11') {
+                $permissions['11'] = __('Mails');
+            }
+
+        }
+
+        return $permissions;
+
+    }
 }

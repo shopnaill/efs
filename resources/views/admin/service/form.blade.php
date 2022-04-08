@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Service Form</h4>
 
-                    <form class="forms-sample" action="{{ route('service.update_create') }}" method="POST"
+                    <form class="forms-sample" action="{{ route('admin.service.update_create') }}" method="POST"
                         enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
@@ -41,6 +41,10 @@
                                 required>{{ isset($service) ? $service->description : '' }}</textarea>
 
                         </div>
+
+                        @if (isset($service))
+                            <input type="hidden" name="id" value="{{ $service->id }}">
+                        @endif
 
                         <button type="submit" class="btn btn-primary mr-2">Submit</button>
                         <button class="btn btn-light">Cancel</button>

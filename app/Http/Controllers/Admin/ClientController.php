@@ -51,13 +51,13 @@ class ClientController extends Controller
             Client::create($request->all());
         }
 
-        return redirect()->route('client.index');
+        return redirect()->route('admin.client.index');
     }
 
     // delete client
     public function delete(Client $client)
     {
         $client->delete();
-        return redirect()->route('client.index');
+        return redirect()->route('admin.client.index');
     }
 }

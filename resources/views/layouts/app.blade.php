@@ -24,6 +24,8 @@
 
     <!-- Dependency Styles -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" type="text/css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+
     <link rel="stylesheet" href="{{ asset('css/all.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/swiper.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}" type="text/css">
@@ -80,8 +82,10 @@
     </div>
     <!-- /.page-loader -->
     <div id="main_content">
+        @if (!isset($login))
         @include('layouts.navbar')
         @include('layouts.banner')
+        @endif
         @yield('content')
         @include('layouts.footer')
     </div>

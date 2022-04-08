@@ -1,58 +1,37 @@
-<!--=============================-->
-<!--=         About Two         =-->
-<!--=============================-->
-<section class="about-two">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-thumb wow pixFadeRight" data-wow-delay="0.6s"
-                    style="visibility: visible; animation-delay: 0.6s; animation-name: pixFadeRight;">
-                    <img src="{{asset('images/1.png')}}" alt="about">
-                </div>
-                <!-- /.about-thumb -->
-            </div>
-            <!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-                <div class="about-content-two">
-                    <div class="section-title">
-                        <h2 class="title wow pixFadeUp" data-wow-delay="0.3s"
-                            style="visibility: visible; animation-delay: 0.3s; animation-name: pixFadeUp;">
-                            Fantastic excuse my<br>
-                            French butty mufty cockup<br>
-                            wireless the.
-                        </h2>
-                    </div>
-                    <!-- /.section-title -->
+<div class="row no-gutters align-items-center mt-185">
+					<div class="col-lg-4 col-md-6 offset-lg-1 pix-order-two-md">
+						<div class="travel-download-content">
+							<div class="section-title style-eight">
+ 								<h2 class="title wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                 {{$about->title}}
+                                </h2>
 
-                    <p class="description wow pixFadeUp" data-wow-delay="0.5s"
-                        style="visibility: visible; animation-delay: 0.5s; animation-name: pixFadeUp;">
-                        Zonked down the pub cobblers William chancer baking
-                        cakes mush he nicked it nice one morish cheesed off
-                        cuppa, me old mucker codswallop cup of char the full
-                        monty hunky dory twit only a quid.!
-                    </p>
+								<p class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    {{$about->description}}
+								</p>
+							</div>
+							<a href="#" class="app-btn-two app-travel wow flipInX" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: flipInX;">
+								<i class="fi flaticon-google-play"></i>
+								<span class="btn-text">
+									<span class="text-top">Get on the</span>
+									<span>Google play</span>
+								</span>
+							</a>
+						</div>
+						<!-- /.travel-download-content -->
+					</div>
+					<!-- /.col-md-4 -->
 
-                    <div class="about-user wow pixFadeUp" data-wow-delay="0.7s"
-                        style="visibility: visible; animation-delay: 0.7s; animation-name: pixFadeUp;">
-                        <div class="avatar">
-                            <img src="{{asset('images/1.png')}}"
-                                alt="saaspik author">
-                        </div>
+					<div class="col-lg-6 col-md-6 offset-lg-1">
+						<div class="travel-parallax-image-two wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+							<div class="image-wrapper">
+								<img src="{{ asset('storage/' . $about->photo) }}" alt="">
 
-                        <div class="user-info">
-                            <h3 class="name">Lance Bogrol</h3>
-                            <span class="designation">Designer</span>
-                        </div>
-                    </div>
-                    <!-- /.singiture -->
-                </div>
-                <!-- /.about-content -->
-            </div>
-            <!-- /.col-lg-6 -->
-
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.about -->
+								<span class="circle-shape" data-parallax="{&quot;y&quot;: -50}" style="transform:translate3d(0px, -26.588px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, -26.588px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "></span>
+							</div>
+							<!-- /.image-wrapper -->
+						</div>
+						<!-- /.travel-parallax-image-two -->
+					</div>
+					<!-- /.col-md-5 offset-md-2 -->
+				</div>

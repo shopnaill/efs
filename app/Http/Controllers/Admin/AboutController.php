@@ -37,7 +37,7 @@ class AboutController extends Controller
             About::create($request->all());
         }
 
-        return redirect()->route('about.index');
+        return redirect()->route('admin.about.index');
     }
     
 }

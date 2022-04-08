@@ -1,3 +1,6 @@
+@php
+    $login = true;
+@endphp
 @extends('layouts.app')
 
 @section('content')

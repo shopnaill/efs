@@ -604,8 +604,8 @@ section {
 }
 
 .pix-btn.btn-five {
-    background: #f98e47;
-    border: 2px solid #f98e47;
+    background: #2196f3;
+    border: 2px solid #2196f3;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -615,7 +615,7 @@ section {
 }
 
 .pix-btn.btn-five:hover {
-    color: #f98e47;
+    color: #2196f3;
     background: transparent;
 }
 
@@ -2386,7 +2386,7 @@ select {
 
 .site-header .header-inner .site-logo a {
     display: block;
-    max-width: 150px;
+    max-width: 80px;
 }
 
 .site-header .header-inner .site-logo a img {
@@ -2997,7 +2997,7 @@ select {
 
 .site-header.header-nine .site-main-menu li a:hover,
 .site-header.header-nine .site-main-menu li a.current_page {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .site-header.header-nine .site-main-menu li.menu-item-has-children:after {
@@ -3008,8 +3008,8 @@ select {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 6px;
-    background: #f98e47;
-    border: 1px solid #f98e47;
+    background: #2196f3;
+    border: 1px solid #2196f3;
     color: #fff;
     padding: 4px 30px;
     font-weight: 500;
@@ -3017,7 +3017,7 @@ select {
 
 .site-header.header-nine .header-inner .site-nav .nav-right .nav-btn:hover {
     background: transparent;
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .site-header.header-hosting .site-main-menu li a {
@@ -3141,7 +3141,7 @@ select {
 }
 
 .pix-header-fixed .header-inner .site-logo {
-    padding: 18px 0;
+    padding: 0px 0;
 }
 
 .pix-header-fixed .header-inner .site-logo .logo-sticky {
@@ -4523,8 +4523,8 @@ select {
 
 .banner.banner-nine .banner-content .banner-btn {
     border-radius: 4px;
-    border: 2px solid #f98e47;
-    color: #f98e47;
+    border: 2px solid #2196f3;
+    color: #2196f3;
     background: transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -4534,7 +4534,7 @@ select {
 
 .banner.banner-nine .banner-content .banner-btn:hover {
     color: #fff;
-    background: #f98e47;
+    background: #2196f3;
 }
 
 .banner.banner-ten {
@@ -6832,7 +6832,7 @@ select {
 .saaspik-icon-box-wrapper.style-eleven:hover
     .pixsass-icon-box-content
     .pixsass-icon-box-title:hover {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .saaspik-icon-box-wrapper.style-eleven:hover
@@ -6846,7 +6846,7 @@ select {
     .pixsass-icon-box-content
     .pixsass-icon-box-title
     a:hover {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .saaspik-icon-box-wrapper.style-eleven:hover .pixsass-icon-box-content p {
@@ -10614,7 +10614,7 @@ select {
 }
 
 .popup-videos-two .play-btn.large i {
-    color: #f98e47;
+    color: #2196f3;
     text-shadow: none;
 }
 
@@ -11523,7 +11523,7 @@ select {
     height: 100%;
     top: 0;
     left: 0;
-    background: #f98e47;
+    background: #2196f3;
     opacity: 0.9;
     z-index: 1;
     opacity: 0;
@@ -11598,7 +11598,7 @@ select {
     background: #fff;
     -webkit-box-shadow: 0px 10px 14px 0px rgba(56, 15, 2, 0.1);
     box-shadow: 0px 10px 14px 0px rgba(56, 15, 2, 0.1);
-    color: #f98e47;
+    color: #2196f3;
     border-color: #fff;
 }
 
@@ -11683,7 +11683,7 @@ select {
 .team-slider-wrapper
     .swiper-pagination
     .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: #f98e47;
+    background: #2196f3;
 }
 
 @media (max-width: 991px) {
@@ -14944,7 +14944,7 @@ Download Two
     border-radius: 50%;
     width: 420px;
     height: 420px;
-    background: #f66e93;
+    background: #2196f3;
     display: block;
 }
 
@@ -16539,8 +16539,8 @@ Download Two
 }
 
 .marketing-tabs #pix-tabs-nav li.active a {
-    background: #f98e47;
-    border-color: #f98e47;
+    background: #2196f3;
+    border-color: #2196f3;
     color: #fff;
 }
 
@@ -16670,14 +16670,14 @@ Download Two
 }
 
 .marketing-tabs-wrapper .marketing-tab-contents .pix-btn {
-    border: 2px solid #f98e47;
-    color: #f98e47;
+    border: 2px solid #2196f3;
+    color: #2196f3;
     border-radius: 6px;
 }
 
 .marketing-tabs-wrapper .marketing-tab-contents .pix-btn:hover {
     color: #fff;
-    background: #f98e47;
+    background: #2196f3;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -17158,7 +17158,7 @@ Download Two
 }
 
 .blog-post.style-three .blog-content .entry-title a:hover {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .blog-post.style-three .blog-content .read-more {
@@ -17167,7 +17167,7 @@ Download Two
 }
 
 .blog-post.style-three .blog-content .read-more:hover {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 .blog-post.style-three:hover {
@@ -19433,7 +19433,7 @@ Download Two
 }
 
 #footer.footer-marketing .footer-menu li a:hover {
-    color: #f98e47;
+    color: #2196f3;
 }
 
 #footer.footer-marketing .footer-bottom-shape {
@@ -19648,4 +19648,10 @@ Download Two
     top: 0;
     left: 0;
     z-index: 9999999;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto!important;
 }

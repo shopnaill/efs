@@ -50,13 +50,13 @@ class TeamController extends Controller
             Team::create($request->all());
         }
 
-        return redirect()->route('team.index');
+        return redirect()->route('admin.team.index');
     }
 
     // delete team
     public function delete(Team $team)
     {
         $team->delete();
-        return redirect()->route('team.index');
+        return redirect()->route('admin.team.index');
     }
 }

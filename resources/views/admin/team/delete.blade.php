@@ -14,7 +14,7 @@
              </div>
              <div class="modal-footer">
                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                 <form id="delete-form" action="{{ route('team.delete', 0) }}" method="POST">
+                 <form id="delete-form" action="{{ route('admin.team.delete', 0) }}" method="POST">
                      @csrf
                      @method('DELETE')
                      <button type="submit" class="btn btn-danger">Delete</button>

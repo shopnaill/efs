@@ -42,13 +42,13 @@ class UserController extends Controller
             User::create($request->all());
         }
 
-        return redirect()->route('admin.user.index');
+        return redirect()->route('admin.admin.user.index');
     }
 
     // delete user
     public function delete(User $user)
     {
         $user->delete();
-        return redirect()->route('admin.user.index');
+        return redirect()->route('admin.admin.user.index');
     }
 }
