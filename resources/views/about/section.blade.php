@@ -7,7 +7,7 @@
                                 </h2>
 
 								<p class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                    {{$about->description}}
+                                    {!! $about->description !!}
 								</p>
 							</div>
 							<a href="#" class="app-btn-two app-travel wow flipInX" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: flipInX;">
