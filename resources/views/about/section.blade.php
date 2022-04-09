@@ -1,6 +1,6 @@
 <div class="row no-gutters align-items-center mt-185">
     <div class="col-lg-4 col-md-6 offset-lg-1 pix-order-two-md">
-        <div class="travel-download-content">
+        <div class="travel-download-content" {{ app()->getLocale() == 'ar' ? 'style=text-align:right;' : '' }}>
             <div class="section-title style-eight">
                 <h2 class="title wow fadeInUp" data-wow-delay="0.3s"
                     style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
