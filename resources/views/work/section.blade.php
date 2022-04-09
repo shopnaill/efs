@@ -6,12 +6,12 @@
           <div class="section-title color-two text-center">
               <h2 class="title wow pixFadeUp" data-wow-delay="0.3s"
                   style="visibility: visible; animation-delay: 0.3s; animation-name: pixFadeUp;">
-                  Our Work
+                    {{__('Our Work')}}
               </h2>
 
               <p class="wow pixFadeUp" data-wow-delay="0.5s"
                   style="visibility: visible; animation-delay: 0.5s; animation-name: pixFadeUp;">
-                  {{ $about->description }}
+                    {{__('We are a team of passionate designers and developers that works hard to create high quality web apps and user interfaces with the latest technologies.')}}
               </p>
           </div>
 

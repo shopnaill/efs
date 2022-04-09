@@ -25264,3 +25264,20 @@ body.avgrund-active {
 }
 
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+.sidebar {
+    min-height: calc(100vh - 64px);
+    background: #ffffff!important;
+}
+
+.sidebar .nav .nav-item.active > .nav-link {
+    background: #2a80ff;
+    position: relative;
+}
+
+.sidebar .nav .nav-item.active > .nav-link i {
+    color: #ffffff;
+}
+
+.sidebar .nav .nav-item:hover .nav-link  {
+    background: #2a80ff!important;
+ }

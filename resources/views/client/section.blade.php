@@ -1,6 +1,8 @@
 <section id="brand-logo mt-3">
     <div class="section-title style-two text-center">
-        <h2 class="title wow pixFadeUp">Our Clients</h2>
+        <h2 class="title wow pixFadeUp">
+            {{__('Our Clients')}}
+        </h2>
     </div>
     <div class="container">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2093px" height="1290px" class="devaider">

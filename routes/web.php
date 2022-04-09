@@ -36,3 +36,9 @@ Route::get('storage/{dir}/{file}', function ($dir, $file) {
         return response()->json(['error' => 'File not found'], 404);
     }
 });
+
+Route::get('language/{locale}', function ($locale) {
+    app()->setLocale($locale);
+    session()->put('locale', $locale);
+    return redirect()->back();
+})->name('locale');

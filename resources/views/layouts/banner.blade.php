@@ -4,16 +4,18 @@
           <div class="banner-content text-center">
               <h1 class="banner-title wow pixFadeUp" data-wow-delay="0.3s"
                   style="visibility: visible; animation-delay: 0.3s; animation-name: pixFadeUp;">
-                   {{ $slider->name }}
+                   {{ $slider->getName() }}
               </h1>
 
               <p class="description wow pixFadeUp" data-wow-delay="0.5s"
                   style="visibility: visible; animation-delay: 0.5s; animation-name: pixFadeUp;">
-                    {{ $slider->description }}
+                    {!! $slider->getDescription() !!}
               </p>
 
               <a href="#" class="pix-btn banner-btn wow pixFadeUp" data-wow-delay="0.7s"
-                  style="visibility: visible; animation-delay: 0.7s; animation-name: pixFadeUp;">Get Started</a>
+                  style="visibility: visible; animation-delay: 0.7s; animation-name: pixFadeUp;">
+                   {{__('Get Started')}}
+                </a>
               <!-- /.job-search-form-wrapper -->
           </div><!-- /.banner-content -->
 
