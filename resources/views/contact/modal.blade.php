@@ -3,10 +3,12 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Order Your Demo</h5>
+                <h5 class="modal-title" id="staticBackdropLabel">
+                    {{ __('Get Demo') }}
+                </h5>
                 <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="{{''}}" method="POST">
+            <form>
                 @csrf
                 <div class="modal-body">
 
