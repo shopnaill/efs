@@ -18,10 +18,7 @@ class AboutController extends Controller
     // update about
     public function update(Request $request, About $about = null)
     {
-        $this->validate($request, [
-            'title' => 'required|string|max:255',
-            'description' => 'nullable|string|max:255',
-         ]);
+   
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
